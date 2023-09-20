@@ -1,0 +1,47 @@
+.container {
+  padding: 0 65px;
+}
+
+.listCard {
+  margin-top: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 20px;
+}
+
+.card {
+  width: 160px;
+  height: 170px;
+  padding: 16px;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-radius: 16px;
+}
+
+.activeCard {
+  background: #ffffff31;
+}
+
+.iconWeather {
+  width: 50px;
+  height: 50px;
+}
+
+.blockTemp {
+  display: flex;
+  align-items: flex-end;
+}
+
+.dayTimeTemp {
+  font-size: 24px;
+}
+
+.nightTimeTemp {
+  margin-left: 16px;
+  font-size: 18px;
+  opacity: 0.5;
+}

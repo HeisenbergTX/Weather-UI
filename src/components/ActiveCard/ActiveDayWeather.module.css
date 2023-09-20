@@ -1,0 +1,38 @@
+p {
+  margin: 0;
+}
+
+.mainCard {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nameCountry {
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.precipitationImage {
+  width: 215px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 96px;
+}
+
+.iconWeather {
+  width: 100px;
+  height: 100px;
+}
+
+.temperature {
+  font-weight: 300;
+  margin: 0;
+}
+
+.precipitationName {
+  font-size: 24px;
+}
