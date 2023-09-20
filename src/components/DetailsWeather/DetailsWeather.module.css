@@ -1,0 +1,45 @@
+.section {
+  font-size: 24px;
+  padding: 0 65px;
+}
+
+.title {
+  padding-bottom: 10px;
+  width: 500px;
+  border-bottom: 1px #ffffff56 solid;
+}
+
+.container {
+  display: flex;
+}
+
+.blockInformatios {
+  width: 600px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto 15rem;
+}
+
+.significanceInfoBlock {
+  
+  display: flex;
+  flex-direction: column;
+  padding-top: 32px;
+}
+
+.significanceName {
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.significance {
+  font-weight: 300;
+}
+
+.icon {
+  margin-right: 5px;
+}
+
+.sunriseSunset {
+  height: 100%;
+}

@@ -1,0 +1,31 @@
+.container {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  border-top: 1px #ffffff56 solid;
+}
+
+.significanceInfoBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding-top: 32px;
+}
+
+.significanceName {
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.significance {
+  display: flex;
+  align-items: center;
+  font-weight: 300;
+}
+
+.icon {
+  margin-right: 10px;
+  width: 48px;
+  height: 48px;
+}
