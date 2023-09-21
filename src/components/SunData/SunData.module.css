@@ -5,7 +5,7 @@
   border-top: 1px #ffffff56 solid;
 }
 
-.significanceInfoBlock {
+.infoBlock {
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -13,12 +13,12 @@
   padding-top: 32px;
 }
 
-.significanceName {
+.name {
   font-size: 14px;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
-.significance {
+.details {
   display: flex;
   align-items: center;
   font-weight: 300;

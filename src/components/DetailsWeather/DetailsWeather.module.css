@@ -1,6 +1,5 @@
 .section {
   font-size: 24px;
-  padding: 0 65px;
 }
 
 .title {
@@ -13,26 +12,25 @@
   display: flex;
 }
 
-.blockInformatios {
+.blockInfo {
   width: 600px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: auto 15rem;
+  grid-template-rows: 100px;
 }
 
-.significanceInfoBlock {
-  
+.detailsInfoBlock {
   display: flex;
   flex-direction: column;
   padding-top: 32px;
 }
 
-.significanceName {
+.detailsName {
   font-size: 14px;
   margin-bottom: 16px;
 }
 
-.significance {
+.details {
   font-weight: 300;
 }
 
@@ -40,6 +38,6 @@
   margin-right: 5px;
 }
 
-.sunriseSunset {
+.sun-data {
   height: 100%;
 }
