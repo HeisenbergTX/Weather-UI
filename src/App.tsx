@@ -1,17 +1,25 @@
-import React from "react";
-import style from "./App.module.css";
-import { ActiveDayWeather } from "./components/ActiveCard/ActiveDayWeather";
-import { DayWeather } from "./components/DayWeather/DayWeather";
+import React, { useEffect } from "react";
+import { useDispatch } from "react-redux";
+import { CurrentDay } from "./components/CurrentDay/CurrentDay";
+import { DaysWrapper } from "./components/DaysWrapper/DaysWrapper";
 import { DetailsWeather } from "./components/DetailsWeather/DetailsWeather";
+import { getWeatherReq } from "./store/weather";
+import style from "./App.module.css";
 
 function App() {
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(getWeatherReq());
+  }, []);
+
   return (
     <section className={style.app}>
-      <header className={style.mainWeather}>
-        <ActiveDayWeather />
+      <header>
+        <CurrentDay />
       </header>
       <nav className={style.nav}>
-        <DayWeather />
+        <DaysWrapper />
       </nav>
       <article className={style.detailsWeather}>
         <DetailsWeather />

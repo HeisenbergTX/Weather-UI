@@ -1,24 +1,12 @@
-.container {
-  padding: 0 65px;
-}
-
-.listCard {
-  margin-top: 35px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  column-gap: 20px;
-}
-
 .card {
-  width: 160px;
-  height: 170px;
   padding: 16px;
   font-size: 18px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+  flex: 1 1;
+  gap: 10px;
   border-radius: 16px;
 }
 
@@ -27,8 +15,8 @@
 }
 
 .iconWeather {
-  width: 50px;
-  height: 50px;
+  text-align: left;
+  width: 70px;
 }
 
 .blockTemp {
@@ -36,12 +24,12 @@
   align-items: flex-end;
 }
 
-.dayTimeTemp {
+.dayTemp {
   font-size: 24px;
 }
 
-.nightTimeTemp {
-  margin-left: 16px;
-  font-size: 18px;
+.nightTemp {
+  margin-left: 8px;
+  font-size: 16px;
   opacity: 0.5;
 }
