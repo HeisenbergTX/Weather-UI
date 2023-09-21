@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Weather-UI/static/css/main.b775d5c9.css",
+    "main.js": "/Weather-UI/static/js/main.1309bcb6.js",
+    "static/media/Background.png": "/Weather-UI/static/media/Background.ac588583949f74eea0ac.png",
+    "static/media/SunDown.svg": "/Weather-UI/static/media/SunDown.60e9ed78a5be2c694573675037b5a792.svg",
+    "static/media/SunUp.svg": "/Weather-UI/static/media/SunUp.ea78cefcdb88c7f0f63ac18bd486ae39.svg",
+    "static/media/Frame.svg": "/Weather-UI/static/media/Frame.3e132bb224e69447a8301479d505b12f.svg",
+    "index.html": "/Weather-UI/index.html",
+    "main.b775d5c9.css.map": "/Weather-UI/static/css/main.b775d5c9.css.map",
+    "main.1309bcb6.js.map": "/Weather-UI/static/js/main.1309bcb6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b775d5c9.css",
+    "static/js/main.1309bcb6.js"
+  ]
+}
